@@ -7,19 +7,24 @@ Your team is encouraged to discuss ideas with me or a TA before submitting the p
 
 objectives:factors that influence the cell phone battery usage
 
-levels: 4*2*2*2*2 factorial
+levels: 3*2*2*2*2 factorial
 
 block: iphone SE and iphone 7
 brightness: max brightness and min brightness
 bluetooth: open and close
 wifi: open and close
-apps running: 2, 3, 4, 5
+apps running: 2, 3, 4 
+(Wechat, facebook, itunes, weather)
 
 response varibale: the time when the battery decreases from 100% to 90%
 
 experimental plan: 
-
-The experiment design is a 4*2*2*2*2 factorial design, the treatments variables to examine are brightness, bluetooth, wifi and the number of apps running, with a block factor, which is the type the iphone. All of factors are regarded as treatment variables, which are random and independent. Both phones used in the experiment were bought in June 2017. When conducting the experiment, we will fully charge the phones first and closed all apps before starting the experiments. The experiment will be held at the same time and location to avoid other variables.  
-There are 32 different treatment combinations, with 2 blocks. The 64 treatment
+The experiment design is a 3*2*2*2*2 factorial design, the treatments variables to examine are brightness, bluetooth, wifi and the number of apps running, with a block factor, which is the type the iphone. All of factors are regarded as treatment variables, which are random and independent. Both phones used in the experiment were bought in June 2017. When conducting the experiment, we will fully charge the phones first and closed all apps before starting the experiments. The experiment will be held at the same time and location to avoid other variables.  
+There are 24 different treatment combinations, with 2 blocks. The 48 treatment
 combinations will be put in random order; the treatment combination first in the random order is
 iphone SE with open wifi and bluetooth, 2 running apps and full brightness, etc. We assume that the battery usage of different apps is negligible since we aim to choose similar battery usage applications (the battery usage information will be found from the iphone setting based on past 4 days). 
+
+experimental analysis:
+Since there's no replications, so there should no highest-order interation terms. We plan to include four main effects, 6 2-factor intercation terms, four 3-factor interaction terms. 
+
+
