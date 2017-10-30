@@ -24,7 +24,9 @@ The experiment design is a 3*2*2*2*2 factorial design, the treatments variables 
 
 
 experimental analysis:
-We need to check if the data needs transformation by checking the box cox plot first. And then we also need to make sure the variance is constant and the error terms are independent and normally distributed. After organizing the data, we will start to the ANOVA analysis. Since there's no replications, so there should no highest-order interaction terms. We plan to include four main effects, 6 2-factor interaction terms, four 3-factor interaction terms. From the ANOVA analysis, we should conclude which main effects, block or interactions effects are significant. The result will help us to address our question about which factors will have significant influence on battery usage for IPHONES. 
+We need to check if the data needs transformation by checking the box cox plot first. And then we also need to make sure the variance is constant and the error terms are independent and normally distributed. After organizing the data, we will start to the ANOVA analysis. Since there's no replications, so there should no highest-order interaction terms. We plan to include four main effects, 6 2-factor interaction terms, four 3-factor interaction terms, i.e. the model should be:
+$Y= \beta_{0}+\beta_{A}*x_{iA}+\beta_{B}*x_{iB}+\beta_{C}*x_{iC}+\beta_{D}*x_{iD}+\beta_{AB}*x_{iA}*x_{iB}+\beta_{AC}*x_{iA}*x_{iC}+\beta_{AD}*x_{iA}*x_{iD}+\beta_{BC}*x_{iB}*x_{iC}+\beta_{BD}*x_{iB}*x_{iD}+\beta_{CD}*x_{iC}*x_{iD}+\beta_{ABC}*x_{iA}*x_{iB}*x_{iC}+\beta_{ABD}*x_{iA}*x_{iB}*x_{iD}+\beta_{BCD}*x_{iB}*x_{iC}*x_{iD}+\epsilon_{i}$
+From the ANOVA analysis, we should conclude which main effects, block or interactions effects are significant. The result will help us to address our question about which factors will have significant influence on battery usage for IPHONES. 
 
 
 
